@@ -4442,3 +4442,24 @@ td:last-child {
         right: -2rem;
     }
 }
+
+
+
+@media (max-width: 375px){
+    .entry__thumb img{
+      height: 400px !important ;
+      margin: 10px !important;
+      width: 100%;
+      object-fit: fill;
+    }
+}
+
+
+@media (max-width: 768px){
+    .entry__thumb img{
+      height: 400px !important ;
+      margin: 5px !important;
+      width: 100%;
+      object-fit: fill;
+    }
+}
